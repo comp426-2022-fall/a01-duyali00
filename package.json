@@ -1,0 +1,22 @@
+{
+  "name": "pineapple",
+  "version": "1.0.0",
+  "description": "COMP 426 A01 - This package contains a very simple web server that takes one argument for port and then serves any files inside the public directory.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5555"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a01-duyali00.git"
+  },
+  "author": "@duyali00",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a01-duyali00/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a01-duyali00#readme",
+  "dependencies": {
+    "minimist": "^1.2.6"
+  }
+}
